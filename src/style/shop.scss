@@ -1,0 +1,11 @@
+#shop {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: black;
+  padding-bottom: 3vh;
+  a {
+    text-decoration: none;
+  }
+}

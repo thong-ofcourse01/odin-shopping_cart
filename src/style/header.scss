@@ -1,0 +1,80 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 3rem;
+  font-family: 'Comfortaa', cursive;
+  background-color: black;
+  color: #eaeaea;
+  z-index: 1;
+  a{
+    color: inherit;
+  }
+  h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+    user-select: none;
+  }
+  nav {
+    width: 30%;
+
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none;
+      font-size: 1.6em;
+    }
+
+    a {
+      color: #eaeaea;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.15em;
+      line-height: 0.4em;
+
+      display: inline-block;
+      padding: 15px 20px;
+      position: relative;
+      &:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #eaeaea;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      &:hover::after {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+  #cart {
+    display: flex;
+    align-items: flex-end;
+    transition: opacity 0.2s linear;
+    color: #eaeaea;
+    #cartIcon {
+      font-size: 1.8em;
+      margin-right: 0.2em;
+    }
+
+    #cartCount {
+      font-size: 1.5em;
+      display: inline-block;
+      width: 2em;
+    }
+
+    &.dim {
+      opacity: 0.3;
+    }
+  }
+
+  a{
+    text-decoration: none;
+  }
+}

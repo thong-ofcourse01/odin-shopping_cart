@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+#home {
+  background-image: url(../assets/9GAG_Flat_lay_1296x.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: luminosity;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  #shopBtn {
+    font-family: 'Comfortaa', cursive;
+    color: #eaeaea;
+    background-color: black;
+
+    font-size: 5em;
+    padding: 1em;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px gray;
+  }
+}

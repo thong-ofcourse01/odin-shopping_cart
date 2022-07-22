@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+#complete {
+  background-color: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+  }
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  height: 15vh;
+  position: sticky;
+  top: 0;
+}
+
+#detail, #checkout, #home, #complete{
+  min-height: 85vh;
+}

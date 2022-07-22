@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+#detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  font-family: 'Work Sans', sans-serif;
+  color: #eaeaea;
+
+  img#prodImg {
+    height: 50vh;
+    border: 1px solid black;
+  }
+
+  #info {
+    height: 50vh;
+    width: 30vw;
+    border: 1px solid black;
+    padding-left: 3em;
+    position: relative;
+
+    p#price {
+      font-family: 'Major Mono Display', monospace;
+      font-weight: 600;
+      font-size: 1.5em;
+    }
+
+    #addBtn {
+      background-color: #139546;
+      width: fit-content;
+      text-align: center;
+      padding: 0.5em 1em;
+      margin-top: 2em;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      border-radius: 0.2em;
+      transition: background-color 0.3s linear;
+      user-select: none;
+
+      &:hover {
+        background-color: #18bd59;
+      }
+
+      #cartIcon {
+        font-size: 1.5em;
+      }
+
+      p {
+        margin-left: 0.5em;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2em;
+      }
+    }
+
+    #backBtn {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      font-size: 2em;
+      transition: opacity 0.2s linear;
+      user-select: none;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
